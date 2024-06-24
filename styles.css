@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#about {
+    background-color: #f8f9fa;
+}
+
+#contact .container {
+    max-width: 600px;
+}
+
+
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar active link styling */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+a{
+    text-decoration: none;
+}
